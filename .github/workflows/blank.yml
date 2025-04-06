@@ -1,9 +1,10 @@
 # This is a basic workflow to help you get started with Actions
+# This is a basic workflow to help you get started with Actions
 name: Generate snake animation
 
 on:
   schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
+    - cron: "0 */12 * * *"  # Corrigido para executar a cada 12 horas exatamente
 
   workflow_dispatch:
 
@@ -19,12 +20,14 @@ jobs:
     timeout-minutes: 5
 
     steps:
+      - name: Check out repository
+        uses: actions/checkout@v2  # Adicionado para garantir que o repositório seja verificado
+
       - name: generate snake.svg
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name:Marinho337
-          outputs: dist/github-contribution-grid-snake.svg    
-
+          github_user_name: Marinho337  # Adicionado espaço após o nome do usuário
+          outputs: dist/github-contribution-grid-snake.svg
 
       - name: push snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
