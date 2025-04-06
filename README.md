@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋! My name is Gabriel Marinho. and I'm a  Back-end developer. I currently live in Rio de Janeiro (Marvelous City)<br>___________________________________________________________________________________________________________________________<br><br>About me:<br>___________________________________________________________________________________________________________________________<br><br>Active militar personnel. Extensive experience in developing Mods for games/servers (DayZ/Rust/Ark)<br><br>Ardamento training:<br><br>Systems Analysis & Development | Computer Science.</h2>
+<h2 align="left">Hi 👋! My name is Gabriel Marinho. and I'm a  Back-end developer. I currently live in Rio de Janeiro (Marvelous City)<br>_____________________________________________________________________________________________________<br><br>About me:<br>_____________________________________________________________________________________________________<br><br>Active militar. Extensive experience in developing Mods for games/servers (DayZ/Rust/Ark)<br><br> Training in progress:<br><br>Systems Analysis & Development | Computer Science.</h2>
 
 ###
 
